@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/adler/code/dotnet/FaithBase/FaithBase.Infrastructure/FaithBase.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/adler/code/dotnet/FaithBase/FaithBase.Domain/FaithBase.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adler/code/dotnet/FaithBase/FaithBase.Domain/FaithBase.Domain.csproj",
+        "projectName": "FaithBase.Domain",
+        "projectPath": "/home/adler/code/dotnet/FaithBase/FaithBase.Domain/FaithBase.Domain.csproj",
+        "packagesPath": "/home/adler/.nuget/packages/",
+        "outputPath": "/home/adler/code/dotnet/FaithBase/FaithBase.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/adler/code/dotnet/FaithBase/FaithBase.Infrastructure/FaithBase.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adler/code/dotnet/FaithBase/FaithBase.Infrastructure/FaithBase.Infrastructure.csproj",
+        "projectName": "FaithBase.Infrastructure",
+        "projectPath": "/home/adler/code/dotnet/FaithBase/FaithBase.Infrastructure/FaithBase.Infrastructure.csproj",
+        "packagesPath": "/home/adler/.nuget/packages/",
+        "outputPath": "/home/adler/code/dotnet/FaithBase/FaithBase.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adler/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/adler/code/dotnet/FaithBase/FaithBase.Domain/FaithBase.Domain.csproj": {
+                "projectPath": "/home/adler/code/dotnet/FaithBase/FaithBase.Domain/FaithBase.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
